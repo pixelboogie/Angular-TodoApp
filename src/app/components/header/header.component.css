@@ -1,11 +1,19 @@
 .header {
-    background: #333;
-    color: #fff;
+    color: beige;
     text-align: center;
     padding: 10px;
+    padding-bottom: 30px;
   }
   
   .header a {
-    color: #fff;
+    color: beige;
     text-decoration: none;
+  }
+
+  .header a:hover{
+    text-decoration: underline overline;
+  }
+
+  .mb-1{
+    margin-bottom: 20px;
   }

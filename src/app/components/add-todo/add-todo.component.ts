@@ -16,12 +16,17 @@ export class AddTodoComponent implements OnInit {
   }
 
   onSubmit(){
-    const todo = {
-      title: this.title,
-      comleted: false
+
+    // if there actually is a title being submitted, then submit, otherwise do nothing
+    if(this.title){ 
+      const todo = {
+        title: this.title,
+        comleted: false
+      }
+      this.addTodo.emit(todo);
+      this.title = "";
     }
 
-    this.addTodo.emit(todo);
 
   }
 
