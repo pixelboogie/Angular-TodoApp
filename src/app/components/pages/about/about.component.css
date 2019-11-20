@@ -1,7 +1,17 @@
-h1 {
+h4{
     color: rgb(104, 74, 53);
+    margin-bottom: 10px;
 }
 p {
     color: rgb(104, 74, 53);
  
+}
+
+.aboutBox{
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px rgb(235, 235, 235) solid;
+    border-radius: .5rem;
+    margin: 10px;
+    padding: 20px;
 }

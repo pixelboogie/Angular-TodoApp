@@ -24,13 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "styles/bootstrap-grid.min.css",
-              "styles/bootstrap-grid.min.css.map",
-              "styles/bootstrap-reboot.min.css",
-              "styles/bootstrap-reboot.min.css.map",
-              "styles/bootstrap.min.css",
-              "styles/bootstrap.min.css.map"
+              "src/styles.css"
             ],
             "scripts": []
           },

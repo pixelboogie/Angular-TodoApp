@@ -1,12 +1,16 @@
 .header {
-    color: beige;
+    /* color: beige; */
+    color: rgb(104, 74, 53);
+    /* color: rgb(135, 97, 70); */
     text-align: center;
     padding: 10px;
     padding-bottom: 30px;
   }
   
   .header a {
-    color: beige;
+    /* color: beige; */
+    color: rgb(104, 74, 53);
+    /* color: rgb(135, 97, 70); */
     text-decoration: none;
   }
 
